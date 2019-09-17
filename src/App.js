@@ -6,11 +6,16 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <React.Fragment>
+      <div>
+        <h1>Common to all routes</h1>
+      </div>
     <Router>
       <Route path='/' exact component={ View1 } />
       <Route path='/example' exact component={ View2 } />
       <Route path='/Link3' exact component={ View3 } />
     </Router>
+    </React.Fragment>
   );
 }
 
