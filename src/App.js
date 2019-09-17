@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Route path='/' exact component={ View1 } />
       <Route path='/example' exact component={ View2 } />
-      
+      <Route path='/Link3' exact component={ View3 } />
     </Router>
   );
 }

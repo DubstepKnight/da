@@ -6,7 +6,7 @@ export default function view2() {
     <div>
       This is component view 2
       <div>
-        <Link to="/">Next again</Link>
+        <Link to="/Link3">Next again</Link>
       </div>
     </div>
   )
